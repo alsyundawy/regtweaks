@@ -1,4 +1,27 @@
-### How can I get Windows October Update 2019 (Build 18363.418)?
+### How to bypass Windows Safe Mode "Installer restriction"?
+By default you're not permitted in "Safe Mode" to instal or remove MSI Installer related software, because the service is restricted or stopped. You can bypas this, by starting the installer service.
+
+Open PowerShell or CMD (with admin rights) and execute the following three commands:
+
+```bash
+REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\SafeBoot\Minimal\MSIServer" /VE /T REG_SZ /F /D "Service"
+```
+
+```bash
+REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\SafeBoot\Network\MSIServer" /VE /T REG_SZ /F /D "Service"
+```
+`net start msiserver`
+
+Thats it, now you can install/uninstall software under Windows "Safe Mode".
+
+### How can I enable/disable the new Explorer Search function (19H2+)?
+* Download [Mach2](https://github.com/riverar/mach2/releases).
+* Open PowerShell (Mach2) under admin rights.
+* Execute: `.\mach2.exe disable 18755234` (disable) or
+* `.\mach2.exe enable 18755234` (enable)
+
+
+### How can I get Windows November Update 2019 (19H2) (Build 18363.418)?
 
 The October Update is only an upgrade over 1903, you can get the official ESD links [here](https://gist.github.com/CHEF-KOCH/d8fac067aac466ce47cbdbcb6c0a7c10) or you download the [Media Creation Tool](https://github.com/CHEF-KOCH/Microsoft-Windows-10-Media-Creation-Tool-Helper) and upgrade your 1903 Build via Windows Update.
 

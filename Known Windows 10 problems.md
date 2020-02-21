@@ -19,8 +19,8 @@ The overview is provided 'as is' and is not designed to explain every little _fa
 |  1809 (Oct. 2018)  | Redstone 5 (RS5)        | October 2018 Update    | 17763 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) | 
 |  1903 (May 2019)  | 19H1                    | May 2019 Update      | 18362.30 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
 |  1909 (Nov. 2019)  | 19H2                    |  November Update    |  18363.418 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1909-removed-features) |
-|  //   | 20H2                    |   //     |  //    | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
-|  //   | 20H3                    |  //      | //   | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
+|  // (2004)  | 20H1 (Vibranium)                    |   //     |  //    | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
+|  //   | 20H2 (Manganese)                  |  //      | //   | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
 
 
 ### I can't upgrade my OS I get the "This PC can't update to Windows 10" error message
@@ -30,7 +30,12 @@ The overview is provided 'as is' and is not designed to explain every little _fa
 * Repeat the process with a search for `LowerCaseLongPathUnexpanded`, this returns the path which might causes update problems, remove the path and re-start the update procedure. 
 
 
-## Microsoft "Health Dashboard" (showns all known Windows problems)
+### Windows 10 coercing people into online accounts when loading Windows 10
+
+This only [affects US Windows 10 Home Editions](https://www.reddit.com/r/windows/comments/cuzo6w/windows_10_coercing_people_into_online_accounts/). As a [workaround](https://www.howtogeek.com/442609/confirmed-windows-10-setup-now-prevents-local-account-creation/) simply unplug your network cable and you will see the "use local account instead" button on the left corner.
+
+
+## Microsoft "Health Dashboard" (all known Windows problems)
 
 The official dashboard can be found over here:
 * [https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-1903](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-1903)
@@ -178,14 +183,15 @@ On AMD systems you _can block the update_ via [wushowhide.diagcab](https://suppo
 
 OS Version | KB | Patch | Updated
 --- | --- | --- | --- 
-Windows 10 1507 | [KB4091666](https://support.microsoft.com/en-us/help/4091666/kb4091666-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091666) v3 (Rev. 8) | 30. Aug. 2019 |
+Windows 10 1507 | [KB4494454](https://support.microsoft.com/en-us/help/4494174/kb4494174-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4497165) v4 (Rev. 9) | 30. Jan. 2020 |
 Windows 10 1511 | // | // | // |
-Windows 10 1607 | [KB4091664](https://support.microsoft.com/en-us/help/4346087/kb4346087-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/search.aspx?q=4346087) v3 (Rev. 12) | 30. Aug. 2019 |
-Windows 10 1703 | [KB4091663](https://support.microsoft.com/en-us/help/4346086/kb4346086-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/search.aspx?q=4346086) v3 (Rev. 10) | 30. Aug. 2019 |
-Windows 10 1709 | [KB4090007](https://support.microsoft.com/en-us/help/4346085/kb4346085-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/search.aspx?q=4346085) v3 (Rev. 11) | 30. Aug. 2019 |
+Windows 10 1607 | [KB4494175](https://support.microsoft.com/en-us/help/4494175/kb4494175-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4494175) v4 (Rev. 14) | 30. Jan. 2020 |
+Windows 10 1703 | [KB4494453](https://support.microsoft.com/en-us/help/4494453/kb4494453-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4494453) v4 (Rev. 11) | 30. Jan. 2020 |
+Windows 10 1709 | [KB4494452](https://support.microsoft.com/en-us/help/4494452/kb4494452-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4494452) v4 (Rev. 12) | 30. Jan. 2020 |
 Windows 10 1803 | [KB4100347](https://support.microsoft.com/en-us/help/4346084/kb4346084-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=kb4346084) v2 (Rev. 5) | 30. Aug. 2019 |
-Windows 10 1809 | [KB4465065](https://support.microsoft.com/en-us/help/4465065/kb4465065-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=kb4465065) v2 (Rev. 3) | 30. Aug. 2019 |
-Windows 10 1903 | [KB4497165](https://support.microsoft.com/en-us/help/4497165/kb4497165-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=4497165) v3 (Rev. 3) | 30. Aug 2019 |
+Windows 10 1809 | [KB4494174](https://support.microsoft.com/en-us/help/4494174/kb4494174-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4494174) v3 (Rev. 4) | 30. Jan. 2020 |
+Windows 10 1903 | [KB4497165](https://support.microsoft.com/en-us/help/4497165/kb4497165-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4497165) v4 (Rev. 5) | 30. Jan. 2020 |
+Windows 10 1909 | [KB4497165](https://support.microsoft.com/en-us/help/4497165/kb4497165-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4497165) 23 (Rev. 1) | 30. Jan 2020 |
 
 
 ### Intel ZombieLoad
@@ -254,6 +260,11 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servicin
 
 
 Microsoft officially released [KB4509452 as SSU](https://uupdump.ml/getfile.php?id=bef818f0-b193-4847-ada2-1beb1e20a014&file=windows10.0-kb4509452-x64.cab) and [KB4508451](https://uupdump.ml/getfile.php?id=bef818f0-b193-4847-ada2-1beb1e20a014&file=windows10.0-kb4508451-x64.cab) in order to allow people to make the switch from Slow-Ring to the Final Build. The above mentioned workaround is not needed, after installing the KB's you get Windows 10 Build 1909 (18362.10024), which is as time of writing the latest Windows 10 1909 version.
+
+
+## TLS specific fixes
+There are multiple issues with the [TLS client certificates](https://docs.microsoft.com/en-us/windows/win32/secauthn/prioritizing-schannel-cipher-suites), [MS official provides a workaround for it](https://support.microsoft.com/en-us/help/4528489/transport-layer-security-tls-connections-might-intermittently-fail-or).
+
 
 
 ## Acknowledgments and References

@@ -1,8 +1,8 @@
-Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 license 2015 - present by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet but most tweaks are found by myself.
+Regtweaks (Win 8.1 - Win 10) Collection files original created under the [Mozilla Public License 2.0 license](https://github.com/CHEF-KOCH/regtweaks/blob/master/LICENSE) 2015 - present by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet but most tweaks are found by myself.
 
 
 <p align="center">
-  <img width="500" height="320" src="https://raw.githubusercontent.com/CHEF-KOCH/regtweaks/master/.github/Pictures/1909.jpg")">
+  <img width="500" height="320" src="https://raw.githubusercontent.com/CHEF-KOCH/regtweaks/master/.github/Pictures/20H1.jpg")">
 </p>
 
 **Current Status: Over 800+ tweaks**
@@ -20,7 +20,7 @@ Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 l
 Project Goal(s)
 ------------
 
-1. All of the tweaks could be integrated into image creations tools (vLite, WinToolKit,..) to simplify things, especially if you like to re-install Windows from the ground without need to apply each tweak one by one.
+1. All of the tweaks could be integrated into image creations tools (NTLite, WinToolKit,..) to simplify things, especially if you like to re-install Windows from the ground without need to apply each tweak one by one.
 2. Show hidden things that aren't visible via GUI under Windows. Sometimes it's easier/faster to do this via .reg instead of search for the toggles.
 3. Another goal is that the user doesn't need additional tools like O&O ShutUp, because some of such 'privacy' tools are bundled with bloatware and are not necessary, because all can already be done with scripts and .reg tweak - So overall an Index/Backup script to read the current state is more transparent (see 1/2).
 4. [Provide a short overview of current Windows issue](https://github.com/CHEF-KOCH/regtweaks/blob/master/Known%20Windows%20Issue.md) and how to quickly solve them.
@@ -132,14 +132,27 @@ Research
 * [NSA Windows Secure Host Baseline](https://github.com/nsacyber/Windows-Secure-Host-Baseline)
 * [Security baseline (DRAFT) for Windows 10 v1903 and Windows Server v1903](https://blogs.technet.microsoft.com/secguide/2019/04/24/security-baseline-draft-for-windows-10-v1903-and-windows-server-v1903/)
 
-#### Articles
+
+### Search old KB articles
+- [Search old KB entries](https://mskb.pkisolutions.com/kb/search)
+- [Microsoft Product List](https://mskb.pkisolutions.com/products)
+
+
+#### Articles (Telemetry analyzed)
+- [Old german BSI Telemetry report, which tested Windows 10 Pro Build 1607](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Analyse_Telemetriekomponente.pdf?__blob=publicationFile&v=3)
+- [Latest Telemetry BSI report, which tested Windows 10 Pro Build 1909](https://www.lda.bayern.de/media/baylda_report_09.pdf)
 - [SiSyPHuS Win10: Analyse der Telemetriekomponenten in Windows 10](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/AP4/SiSyPHuS_AP4_node.html)
 - [SiSyPHuS Win10: Studie zu Systemaufbau, Protokollierung, Härtung und Sicherheitsfunktionen in Windows 10](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/SiSyPHuS_node.html)
 
+
 #### Optional Tools and Scripts
-* [NTLite](https://www.ntlite.com)
-* [WinToolkit](https://www.Wincert.net)
-* [O&O ShutUp10](http://www.oo-software.com/en/shutup10)
+* [OfflineInsiderEnroll - A script to enable access to the Windows Insider Program on machines not signed in with Microsoft Account](https://github.com/whatever127/offlineinsiderenroll)
+* [Administrative Templates (.admx) for Windows 10 May 2019 Update (1909)](https://www.microsoft.com/en-us/download/100591)
+* [Aero Glass for Windows 8+](https://www.glass8.eu/)
+* [NTLite](https://www.ntlite.com) or (_free_) [MSMG ToolKit](https://m.majorgeeks.com/files/details/msmg_toolkit.html), or [Optimize-Offline](https://github.com/DrEmpiricism/Optimize-Offline/)
+* [PowerToys](https://github.com/microsoft/PowerToys)
 * [RSAT for Windows 10](https://www.microsoft.com/en-us/download/details.aspx?id=45520)
-* [Win10-Initial-Setup-Script](https://github.com/Disassembler0/Win10-Initial-Setup-Script) 
 * [Sandbox Configuration Manager](https://gallery.technet.microsoft.com/Windows-Sandbox-Configurati-f2c863dc)
+* [Win10-Initial-Setup-Script](https://github.com/Disassembler0/Win10-Initial-Setup-Script) 
+* [WinLight](https://github.com/Biswa96/WinLight)
+* [WinToolkit](https://www.wincert.net)
